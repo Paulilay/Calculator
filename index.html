@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Calculator</title>
+
+		<!-- Link to external CSS file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!-- Link to Google Fonts for the Poppins font family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Calculator container -->
+		<div class="calculator">
+			<div class="content">
+				<!-- Input box for displaying and entering calculations -->
+				<input type="text" placeholder="0" id="inputBox">
+
+				<!-- Button grid for calculator operations -->
+				<div>
+					<button class="other-clr">AC</button> <!-- All Clear button -->
+					<button class="other-clr">DE</button> <!-- Delete button -->
+					<button class="main">%</button> <!-- Percentage button -->
+					<button class="main">/</button> <!-- Division button -->
+				</div>
+
+				<div>
+					<button>7</button>
+					<button>8</button>
+					<button>9</button>
+					<button class="main">*</button> <!-- Multiplication button -->
+				</div>
+
+				<div>
+					<button>4</button>
+					<button>5</button>
+					<button>6</button>
+					<button class="main">-</button> <!-- Subtraction button -->
+				</div>
+
+				<div>
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+					<button class="main">+</button> <!-- Addition button -->
+				</div>
+
+				<div>
+					<button>0</button>
+					<button>.</button>
+					<button class="equal">=</button> <!-- Equals button -->
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Link to external JavaScript file -->
+		<script src="script.js"></script>
+		
+	</body>
+</html>
